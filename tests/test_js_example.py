@@ -18,9 +18,9 @@ def test_index(app, client, path, template_name):
 
 
 @pytest.mark.parametrize(('a', 'b', 'result'), (
-    (2, 3, 5),
+    (2, 3, 7),
     (2.5, 3, 5.5),
-    (2, None, 2),
+    (2, None, 4),
     (2, 'b', 2),
 ))
 def test_add(client, a, b, result):
