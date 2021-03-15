@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="https://unpkg.com/sakura.css@1.0.0/css/normalize.css">
 <link rel="stylesheet" href="https://unpkg.com/sakura.css@1.0.0/css/sakura-earthly.css">
 <style>
-  body { background-color: #E8DAEF; }
   ul { margin: 0; padding: 0; display: flex; list-style-type: none; }
   li > * { padding: 1em; }
   li.active > a { color: #5e5e5e; border-bottom: 2px solid #4a4a4a; }
@@ -12,7 +11,6 @@
   form > * { padding-right: 1em; }
   #result { font-weight: bold; }
 </style>
-<body>
 <ul>
   <li><span>Type:</span>
   <li class="{% if js == 'plain' %}active{% endif %}">
@@ -34,4 +32,3 @@ hostname {{ hostname }}
 </form>
 <span>= <span id="result"></span></span>
 {% block script %}{% endblock %}
-</body>
