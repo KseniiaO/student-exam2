@@ -4,3 +4,4 @@ Dockerfile
 setup.cfg
 tests
 *.pyc
+Jenkinsfile
