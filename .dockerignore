@@ -5,6 +5,4 @@ setup.cfg
 tests
 *.pyc
 Jenkinsfile
-.pytest_cache
-js_example.egg-info
-.coverage
+
