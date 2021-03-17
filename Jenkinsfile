@@ -2,7 +2,6 @@ pipeline{
     environment{
         registry = 'kseniiaob/exam'
         registryCredential = '9b733255-f420-4aa7-943b-0a3161b80fc8'
-        dockerImage2 = ''
     }
     agent any
     stages{
